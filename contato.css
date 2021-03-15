@@ -1,0 +1,123 @@
+.main{
+    color: white;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.cabecalho{
+    list-style: none;
+    display:flex;
+    justify-content: left;
+    color: white;
+    position: relative;
+    margin-left:40px;
+}
+.cabe{
+    text-decoration:none;
+    color:white;
+    margin-right: 20px;
+    position: relative;
+    top:20px;
+    font-weight:bold;
+
+}
+.box{
+    z-index: 99;
+    text-align: center;
+    position: relative;
+    top:-20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.bloco{
+    background-color: rgb(51, 3, 3);
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 180px; 
+    
+}
+.inclinacao{
+    background-color: rgb(109, 9, 9);
+    transform: rotate(-2deg);
+    position: relative;
+    top:-40px;
+    height: 70px;
+    width: 99.9%;
+
+}
+body{
+    background-color: rgb(109, 9, 9);
+    font-family: 'Fira Sans', sans-serif;
+}
+.img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    position: relative;
+    top:-30px;
+}
+
+.insta{
+    width: 42px;
+    height: 35px;
+    position: relative;
+    right: 10px;
+    bottom:-2px;
+    cursor: pointer;
+}
+.insta:hover{
+    width: 42px;
+    height: 35px;
+    position: relative;
+    right: 10px;
+    bottom:-2px;
+    cursor: pointer;
+    filter: invert(100%);
+}
+.linke{
+    width: 35px;
+    height: 30px;
+    position: relative;
+    left: -20px;
+    bottom: -3px;
+    cursor: pointer;
+}
+.linke:hover{
+    width: 35px;
+    height: 30px;
+    position: relative;
+    left: -20px;
+    bottom: -3px;
+    cursor: pointer;
+    filter: invert(100%);
+}
+.git{
+    width: 35px;
+    height: 30px;
+    position: relative;
+    left: -20px;
+    bottom: -3px;
+    cursor: pointer;
+}
+.git:hover{
+    width: 35px;
+    height: 30px;
+    position: relative;
+    left: -20px;
+    bottom: -3px;
+    cursor: pointer;
+    filter: invert(100%);
+}
+.lista{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
