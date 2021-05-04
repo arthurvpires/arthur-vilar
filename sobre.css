@@ -53,7 +53,7 @@
 
 }
 .inclinacao{
-    background-color:rgb(29, 30, 95);
+    background-color:rgb(19, 21, 110);
     transform: rotate(-2deg);
     position: relative;
     top:-40px;
@@ -62,7 +62,7 @@
     max-width: 100%;
 }
 body{
-    background-color:rgb(29, 30, 95);
+    background-color:rgb(19, 21, 110);
     font-family: 'Fira Sans', sans-serif;
     
 }
