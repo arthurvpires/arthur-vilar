@@ -152,3 +152,29 @@ body{
     margin-left: 2px;
     bottom: -3px;
 }
+.noticias{
+    border-radius: 2px;
+    font-family: Fira Sans;
+    width: 200px;
+    height: 25px;
+    border-color: rgba(255, 255, 255, 0);
+}
+.botao{
+    height: 35px;
+    width: 85px;
+    font-family: Fira Sans;
+    font-weight: bold;
+    cursor: pointer;
+    color:black;
+}
+.botao:hover{
+    height: 35px;
+    width: 85px;
+    font-family: Fira Sans;
+    font-weight: bolder;
+    cursor: pointer;
+    color:black;
+    background-color: rgb(199, 199, 199);
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 2px;
+}
