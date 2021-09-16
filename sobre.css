@@ -67,8 +67,8 @@ body{
     
 }
 .img{
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
     border-radius: 100%;
     position: relative;
     top:-30px;
@@ -155,8 +155,15 @@ body{
 .noticias{
     border-radius: 2px;
     font-family: Fira Sans;
-    width: 200px;
+    width: 350px;
     height: 25px;
+    border-color: rgba(255, 255, 255, 0);
+}
+.texto{
+    border-radius: 2px;
+    font-family: Fira Sans;
+    width: 350px;
+    height: 150px;
     border-color: rgba(255, 255, 255, 0);
 }
 .botao{

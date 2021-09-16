@@ -24,7 +24,8 @@
     <div class="inclinacao"><h1><br></h1></div>
     <div class="main">
         <div class="box">
-            <img class="img" src="me.jpg">
+
+            <img class="img" src="me2.jpeg">
             <h1>Arthur Vilar<br></h1>
             <h3>desenvolvedor front end<br><br><br></h3>
             <h3><img class="email" src="emaillogo.png"></a>arthurvpires@live.com<br><br><br></h3>
@@ -33,9 +34,13 @@
                 <li><a href="https://www.linkedin.com/in/arthur-vilar-10b4b31a3" target="_blank"><img class="linke" src="linkedinlogo.png"></a></li>
                 <li><a href="https://www.instagram.com/arthurvpires/" target="_blank"><img class="insta" src="instaiconee.png"></a></li>
             </ul>
-            <h4><br><br>Deseja se cadastrar para entrar em contato? </h4><br>
-            <input class="noticias" type="email" placeholder="Email "><br><br>
-            <button class="botao">Cadastrar</button>
+            <form class="form" method="POST" action="./email.php">
+                <h4><br><br>Deseja entrar em contato? </h4><br>
+                <input class="noticias" type ="name" name="name" placeholder="Nome"><br><br>
+                <input class="noticias" type="email" name="email" placeholder="Email" ><br><br>
+                <textarea class="texto" name="mensagem" placeholder="Digite sua mensagem aqui. "></textarea><br><br>
+                <input class="botao" type = "submit" value= "Enviar"></input>
+            </form>
             
         </div>
     </div>
